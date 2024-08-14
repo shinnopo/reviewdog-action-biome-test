@@ -9,7 +9,7 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      - uses: shinnopo/reviewdog-action-biome@0.1.0-alpha
+      - uses: shinnopo/reviewdog-action-biome@main
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
